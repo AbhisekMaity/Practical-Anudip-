@@ -1,4 +1,4 @@
-//Example of Multilevel inheritance 
+//Example of Hirerarchical inheritance 
 
 package Practical;
 class Vehicle2{  // parent class 
