@@ -1,0 +1,27 @@
+package Pracital;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;  // if follow the inserction order 
+import java.util.Set;
+
+public class LinkedHashSetEg2 {
+  public static void main(String[] args) {
+	   LinkedHashSet<String> s4=new LinkedHashSet<String> ();// certain 
+	   s4.add("AC");
+	   s4.add("Pencil");	
+
+	   s4.add("Mouse");
+
+	   s4.add(null);
+
+	   s4.add("Phone");
+
+	   s4.add("AC");
+	   s4.add("Bottle");
+	   Iterator<String> itr = s4.iterator();
+	   while(itr.hasNext()) {
+		   System.out.println(itr.next());
+	   }
+}
+}
